@@ -9,7 +9,7 @@ external-controller: :9090
 dns:
   enable: true
   ipv6: false
-  listen: 127.0.0.1:{{ default(request.adg.port, "5450") }}
+  listen: {{ default(request.adg.port, "5450") }}
   enhanced-mode: redir-host
   default-nameserver:
     - 119.29.29.29
