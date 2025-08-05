@@ -1,3 +1,6 @@
 # 自定义-直连规则
-# PikPak access
-
+DOMAIN,www.volcengine.com
+DOMAIN,portal.volccdn.com
+DOMAIN-SUFFIX,juejin.cn
+DOMAIN-SUFFIX,jb51.net
+DOMAIN-SUFFIX,byteimg.com
